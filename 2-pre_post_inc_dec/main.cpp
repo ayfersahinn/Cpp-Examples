@@ -6,21 +6,20 @@ int main(){
 	
 	int num = 47;
 	
-	//post increment and pre increment
+	cout<<num++<<endl;               //first, it prints the value then increases it. 
 	
-	num++;
-	cout<<num<<endl;
-	++num;
-	cout<<num<<endl;
+	cout<<++num<<endl;               //first, it increases the value then prints it.
+	
 	num = num + 1;
 	cout<<num<<endl<<endl;
 	
 	//post decrement and pre decrement
 	
-	num--;
-	cout<<num<<endl;
-	--num;
-	cout<<num<<endl;
+	
+	cout<<num--<<endl;              //first, it prints the value after that decreases it. 
+	
+	cout<<--num<<endl;              //first, it decreases the value after that prints it.
+	
 	num = num -1;
 	cout<<num<<endl;
 	return 0;
